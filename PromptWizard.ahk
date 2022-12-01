@@ -12,7 +12,7 @@ Element_Pos := 10
 Element_Pos2 := 111
 ;=================
 
-array :=  Clipboard ;"e621, explict content, ((wide shot)), detailed fur, digital media, female anthro, nude, oral, blowjob, oral creampie,rainbow neck fluff, [ahegao], open mouth, dark background, solo, cum, penis, pussy, balls, anus"
+array :=  Clipboard 
 if !RegExMatch(array,", ") {
 	msgbox, no prompt detected
 	exitapp
